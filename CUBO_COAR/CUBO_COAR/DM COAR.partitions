@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4aadbf8b-39a7-4b9a-83f8-9989bac1905c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DM COAR</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Hecho Matricula</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8b05ce78-54cb-4a58-b277-bf4066177957">
+          <ID>Hecho Matricula</ID>
+          <Name>Hecho Matricula</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ecfe3934-5bec-4f2a-b099-4693aa8d5750">
+            <DataSourceViewID>DM COAR</DataSourceViewID>
+            <TableID>dbo_Hecho_Matricula</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Evaluacion</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="bc63a666-f629-4efe-93ce-1ca94b88bb7c">
+          <ID>Hecho Evaluacion</ID>
+          <Name>Hecho Evaluacion</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1c651e10-0e3a-4c8e-8fe8-0d9cdf4a983d">
+            <DataSourceViewID>DM COAR</DataSourceViewID>
+            <TableID>dbo_Hecho_Evaluacion</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Desercion</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0d9e5fda-1d5d-4555-9ab1-670d8f9735b2">
+          <ID>Hecho Desercion</ID>
+          <Name>Hecho Desercion</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="25fca639-5420-42ef-80a8-1d6e7313ef15">
+            <DataSourceViewID>DM COAR</DataSourceViewID>
+            <TableID>dbo_Hecho_Desercion</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Encuesta</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="608a7b0f-6fb5-42b2-b1bc-31210a6bbc62">
+          <ID>Hecho Encuesta</ID>
+          <Name>Hecho Encuesta</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fcd70b5d-892f-47b0-8a7d-231d0f43d388">
+            <DataSourceViewID>DM COAR</DataSourceViewID>
+            <TableID>dbo_Hecho_Encuesta</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

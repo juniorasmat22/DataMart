@@ -6,10 +6,87 @@
     <Name>CUBO_COAR.database</Name>
     <FullPath>CUBO_COAR.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DM COAR.cube</Name>
+      <FullPath>DM COAR.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DM COAR.partitions</Name>
+          <FullPath>DM COAR.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Tiempo.dim</Name>
+      <FullPath>Dim Tiempo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Institucion.dim</Name>
+      <FullPath>Dim Institucion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Organizacion.dim</Name>
+      <FullPath>Dim Organizacion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Lugar.dim</Name>
+      <FullPath>Dim Lugar.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Apoderado.dim</Name>
+      <FullPath>Dim Apoderado.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Estudiante.dim</Name>
+      <FullPath>Dim Estudiante.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Periodo Academico.dim</Name>
+      <FullPath>Dim Periodo Academico.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Evaluacion.dim</Name>
+      <FullPath>Dim Evaluacion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Tipo Desercion.dim</Name>
+      <FullPath>Dim Tipo Desercion.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DM COAR.ds</Name>
+      <FullPath>DM COAR.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DM COAR.dsv</Name>
+      <FullPath>DM COAR.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DM COAR</Id>
+            <Name>DM COAR</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=DM_COAR</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DM COAR</Id>
+            <Name>DM COAR</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

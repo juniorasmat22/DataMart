@@ -1,0 +1,484 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="228b55dc-ad36-4afc-bf1f-4b86332bc610" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DM COAR</ID>
+  <Name>DM COAR</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DM COAR</DataSourceID>
+  <Schema>
+    <xs:schema id="DM_x0020_COAR" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DM_x0020_COAR" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1487a1c4-f2db-4799-a2cc-20413c5dde9a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Hecho_Matricula" msprop:design-time-name="3146d21f-9b53-4305-8c7a-3bd78cab4e12" msprop:DbTableName="Hecho_Matricula" msprop:FriendlyName="Hecho_Matricula" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyEstudiante" msprop:design-time-name="819a236e-e94b-4690-bc7f-182a36fbad5a" msprop:DbColumnName="KeyEstudiante" msprop:FriendlyName="KeyEstudiante" type="xs:int" />
+                  <xs:element name="KeyTiempo" msprop:design-time-name="6ab2ed28-cde0-45b0-9a67-26f859875685" msprop:DbColumnName="KeyTiempo" msprop:FriendlyName="KeyTiempo" type="xs:int" />
+                  <xs:element name="KeyOrganizacion" msprop:design-time-name="a396e29a-aee4-4ce7-932f-38d5e2b696f8" msprop:DbColumnName="KeyOrganizacion" msprop:FriendlyName="KeyOrganizacion" type="xs:int" />
+                  <xs:element name="KeyLugar" msprop:design-time-name="83e0c5be-23d3-4b88-ab16-3534f534e6a9" msprop:DbColumnName="KeyLugar" msprop:FriendlyName="KeyLugar" type="xs:int" />
+                  <xs:element name="KeyApoderado" msprop:design-time-name="bd9f09f9-10a8-4e6f-87aa-297030b231f4" msprop:DbColumnName="KeyApoderado" msprop:FriendlyName="KeyApoderado" type="xs:int" />
+                  <xs:element name="KeyInstitucion" msprop:design-time-name="c3c694ca-cc24-4f45-b24b-44c4c6bc33fb" msprop:DbColumnName="KeyInstitucion" msprop:FriendlyName="KeyInstitucion" type="xs:int" />
+                  <xs:element name="KeyPeriodo" msprop:design-time-name="492fd523-3adc-4f49-b32a-5a4563fb2f3a" msprop:DbColumnName="KeyPeriodo" msprop:FriendlyName="KeyPeriodo" type="xs:int" />
+                  <xs:element name="Matricula" msprop:design-time-name="dcbc0812-ceaf-40e7-b8e4-b03ffc6cfed8" msprop:DbColumnName="Matricula" msprop:FriendlyName="Matricula" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Apoderado" msprop:design-time-name="d93b1e22-19d3-458e-89a7-f18c54b3d532" msprop:DbTableName="Dim_Apoderado" msprop:FriendlyName="Dim_Apoderado" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyApoderado" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3e466a8a-33c9-41d8-8d31-269dab1d4235" msprop:DbColumnName="KeyApoderado" msprop:FriendlyName="KeyApoderado" type="xs:int" />
+                  <xs:element name="Instruccion" msprop:design-time-name="8ae473a9-fab6-49af-bcaa-ddbfa8c17a26" msprop:DbColumnName="Instruccion" msprop:FriendlyName="Instruccion">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Parentesco" msprop:design-time-name="5b979146-d1f1-4b03-93cf-ff76143e30c5" msprop:DbColumnName="Parentesco" msprop:FriendlyName="Parentesco">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LenguaMaterna" msprop:design-time-name="c65a2117-a6c3-44e8-b4a5-ddab898864c8" msprop:DbColumnName="LenguaMaterna" msprop:FriendlyName="LenguaMaterna">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Profesion" msprop:design-time-name="b50db866-3359-41d1-b9a6-c78ab796dde2" msprop:DbColumnName="Profesion" msprop:FriendlyName="Profesion">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idApoderado" msprop:design-time-name="3207ba5e-0b9b-49b5-8084-5cd07893a878" msprop:DbColumnName="idApoderado" msprop:FriendlyName="idApoderado">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Institucion" msprop:design-time-name="174bb436-8d8b-4bd7-98dd-55ee149987db" msprop:DbTableName="Dim_Institucion" msprop:FriendlyName="Dim_Institucion" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyInstitucion" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="4084780c-68ce-45a2-bb70-a7cc7a9001a3" msprop:DbColumnName="KeyInstitucion" msprop:FriendlyName="KeyInstitucion" type="xs:int" />
+                  <xs:element name="Nombre" msprop:design-time-name="8a352bcb-5700-4212-a608-a6b8ab2c3816" msprop:DbColumnName="Nombre" msprop:FriendlyName="Nombre">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Categoria" msprop:design-time-name="99e53cb6-686d-4540-a835-f2869f60991e" msprop:DbColumnName="Categoria" msprop:FriendlyName="Categoria">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idInstitucion" msprop:design-time-name="4d6eba96-a1a1-43b2-bb59-439d4ff88bc7" msprop:DbColumnName="idInstitucion" msprop:FriendlyName="idInstitucion" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Organizacion" msprop:design-time-name="cf7032c0-59a7-4e3f-9cf0-ae133bfaa0db" msprop:DbTableName="Dim_Organizacion" msprop:FriendlyName="Dim_Organizacion" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyOrganizacion" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="dbb4c04e-5a2e-48a3-9801-e999f5e7667a" msprop:DbColumnName="KeyOrganizacion" msprop:FriendlyName="KeyOrganizacion" type="xs:int" />
+                  <xs:element name="Seccion" msprop:design-time-name="7e83c51e-4642-4580-aa43-7a730f5525b6" msprop:DbColumnName="Seccion" msprop:FriendlyName="Seccion">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Grado" msprop:design-time-name="52f0ce31-9ff9-4a88-bfe2-73d5914d920a" msprop:DbColumnName="Grado" msprop:FriendlyName="Grado">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idSeccion" msprop:design-time-name="607fb36d-b377-4dc4-b649-abca83330472" msprop:DbColumnName="idSeccion" msprop:FriendlyName="idSeccion" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Periodo_Academico" msprop:design-time-name="736e2923-6f1e-4923-ae90-b32cefb074f9" msprop:DbTableName="Dim_Periodo_Academico" msprop:FriendlyName="Dim_Periodo_Academico" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyPeriodo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="b3224c57-f2f7-4379-b9d4-702a1c461944" msprop:DbColumnName="KeyPeriodo" msprop:FriendlyName="KeyPeriodo" type="xs:int" />
+                  <xs:element name="Año" msprop:design-time-name="95bcc0a1-1c54-477f-96e6-8ae483079bde" msprop:DbColumnName="Año" msprop:FriendlyName="Año" type="xs:int" />
+                  <xs:element name="Bimestre" msprop:design-time-name="98b9a4b2-e8a4-49ef-8749-286c8fe30c69" msprop:DbColumnName="Bimestre" msprop:FriendlyName="Bimestre">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idPeriodoAcademico" msprop:design-time-name="084803d1-662c-420e-a068-bc62b0293e47" msprop:DbColumnName="idPeriodoAcademico" msprop:FriendlyName="idPeriodoAcademico" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Estudiante" msprop:design-time-name="9ec58ea7-7ac7-478f-8565-95f8d9894566" msprop:DbTableName="Dim_Estudiante" msprop:FriendlyName="Dim_Estudiante" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyEstudiante" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f5a67824-a57b-4915-a056-fab3ab6fc50c" msprop:DbColumnName="KeyEstudiante" msprop:FriendlyName="KeyEstudiante" type="xs:int" />
+                  <xs:element name="Edad" msprop:design-time-name="b6778e30-70d4-47e4-94e1-c965574a8e32" msprop:DbColumnName="Edad" msprop:FriendlyName="Edad" type="xs:int" />
+                  <xs:element name="Genero" msprop:design-time-name="8f49bef8-bb61-48fe-9b51-061365ead22f" msprop:DbColumnName="Genero" msprop:FriendlyName="Genero">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Discapacidad" msprop:design-time-name="94118238-9ce6-4184-9f36-fba82b9b593f" msprop:DbColumnName="Discapacidad" msprop:FriendlyName="Discapacidad">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Condicion" msprop:design-time-name="ff5de3d6-08a6-444a-ab75-6fc7a180b3ec" msprop:DbColumnName="Condicion" msprop:FriendlyName="Condicion">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Lengua" msprop:design-time-name="10f85fb6-4de2-457d-b408-93a375a09d4f" msprop:DbColumnName="Lengua" msprop:FriendlyName="Lengua">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idAlumno" msprop:design-time-name="4632e7b3-d095-4546-9611-3f44029ce7a9" msprop:DbColumnName="idAlumno" msprop:FriendlyName="idAlumno" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Tiempo" msprop:design-time-name="d5615be5-20cb-4970-8658-73f6b181bdc6" msprop:DbTableName="Dim_Tiempo" msprop:FriendlyName="Dim_Tiempo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyTiempo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="cccf5594-2731-4aa6-b37f-886b4d0f05b5" msprop:DbColumnName="KeyTiempo" msprop:FriendlyName="KeyTiempo" type="xs:int" />
+                  <xs:element name="Año" msprop:design-time-name="6ec18d9f-5905-4d1a-a80b-139e6aeca7ea" msprop:DbColumnName="Año" msprop:FriendlyName="Año" type="xs:int" />
+                  <xs:element name="Mes" msprop:design-time-name="799e7f96-8773-438c-a114-75d184af2acf" msprop:DbColumnName="Mes" msprop:FriendlyName="Mes" type="xs:int" />
+                  <xs:element name="dia" msprop:design-time-name="52695549-c3fd-42e6-98f6-14a4638d0a97" msprop:DbColumnName="dia" msprop:FriendlyName="dia" type="xs:int" />
+                  <xs:element name="idTiempo" msprop:design-time-name="47061814-046c-4852-96fb-4639bcd9350f" msprop:DbColumnName="idTiempo" msprop:FriendlyName="idTiempo" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Lugar" msprop:design-time-name="f796446f-d39e-403d-b091-7687c90dfcb2" msprop:DbTableName="Dim_Lugar" msprop:FriendlyName="Dim_Lugar" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyLugar" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="b7ea3ae6-2790-423c-8eeb-2eb6069fad63" msprop:DbColumnName="KeyLugar" msprop:FriendlyName="KeyLugar" type="xs:int" />
+                  <xs:element name="Zona" msprop:design-time-name="1302877a-a8e6-4a71-9099-acaef53c3ea8" msprop:DbColumnName="Zona" msprop:FriendlyName="Zona">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ciudad" msprop:design-time-name="54502a8b-a2ca-47cd-b3c1-4807b3dfa020" msprop:DbColumnName="Ciudad" msprop:FriendlyName="Ciudad">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Region" msprop:design-time-name="78ddb87b-48be-4c31-b242-0c0b2a3c2067" msprop:DbColumnName="Region" msprop:FriendlyName="Region">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idLugar" msprop:design-time-name="1274ad5b-f1a3-44fa-931d-04c7694189db" msprop:DbColumnName="idLugar" msprop:FriendlyName="idLugar" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Hecho_Evaluacion" msprop:design-time-name="98866942-461e-41ec-be59-73e00514ff83" msprop:DbTableName="Hecho_Evaluacion" msprop:FriendlyName="Hecho_Evaluacion" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyEstudiante" msprop:design-time-name="93ff22ba-3843-4e28-9291-f9eeea4591f4" msprop:DbColumnName="KeyEstudiante" msprop:FriendlyName="KeyEstudiante" type="xs:int" />
+                  <xs:element name="KeyTiempo" msprop:design-time-name="6b821eae-a6eb-4e31-85fa-4765d4f315f0" msprop:DbColumnName="KeyTiempo" msprop:FriendlyName="KeyTiempo" type="xs:int" />
+                  <xs:element name="KeyOrganizacion" msprop:design-time-name="dd607ab2-3fca-45ef-bf6b-5542ad9274e5" msprop:DbColumnName="KeyOrganizacion" msprop:FriendlyName="KeyOrganizacion" type="xs:int" />
+                  <xs:element name="KeyEvaluacion" msprop:design-time-name="d5ee4956-c858-4bc2-b8b5-23d8246225c3" msprop:DbColumnName="KeyEvaluacion" msprop:FriendlyName="KeyEvaluacion" type="xs:int" />
+                  <xs:element name="Puntaje" msprop:design-time-name="54933b5a-3763-497d-a74a-07a23a9f8864" msprop:DbColumnName="Puntaje" msprop:FriendlyName="Puntaje" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Evaluacion" msprop:design-time-name="8b741f8f-6e08-4adc-829e-4fb4c4bb4a72" msprop:DbTableName="Dim_Evaluacion" msprop:FriendlyName="Dim_Evaluacion" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyEvaluacion" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="01567d6e-c1d7-41aa-8852-0a1a4d86939a" msprop:DbColumnName="KeyEvaluacion" msprop:FriendlyName="KeyEvaluacion" type="xs:int" />
+                  <xs:element name="Nombre" msprop:design-time-name="f28e44ed-1474-4f3a-96d2-8dea30026174" msprop:DbColumnName="Nombre" msprop:FriendlyName="Nombre">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idEvaluacion" msprop:design-time-name="d802f3ad-c7f5-4ec2-8ed8-b85365bd230e" msprop:DbColumnName="idEvaluacion" msprop:FriendlyName="idEvaluacion" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Hecho_Desercion" msprop:design-time-name="388e871a-7709-4325-a599-e6e96e4991b2" msprop:DbTableName="Hecho_Desercion" msprop:FriendlyName="Hecho_Desercion" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyEstudiante" msprop:design-time-name="232be53d-9d35-42b9-8bde-30de82900758" msprop:DbColumnName="KeyEstudiante" msprop:FriendlyName="KeyEstudiante" type="xs:int" />
+                  <xs:element name="KeyTipoDesercion" msprop:design-time-name="d2b397c7-053e-4b70-bd9e-aa90b6e8dab6" msprop:DbColumnName="KeyTipoDesercion" msprop:FriendlyName="KeyTipoDesercion" type="xs:int" />
+                  <xs:element name="KeyTiempo" msprop:design-time-name="632632e5-6ed8-4a04-b8c9-02274e74691b" msprop:DbColumnName="KeyTiempo" msprop:FriendlyName="KeyTiempo" type="xs:int" />
+                  <xs:element name="KeyOrganizacion" msprop:design-time-name="2ac9a68c-0093-40aa-a507-694b66b8a13f" msprop:DbColumnName="KeyOrganizacion" msprop:FriendlyName="KeyOrganizacion" type="xs:int" />
+                  <xs:element name="KeyApoderado" msprop:design-time-name="f444f5bc-b87c-42ef-9c00-393cefce89e5" msprop:DbColumnName="KeyApoderado" msprop:FriendlyName="KeyApoderado" type="xs:int" />
+                  <xs:element name="KeyLugar" msprop:design-time-name="b498e0b0-3d0f-4128-89be-2588b87021e2" msprop:DbColumnName="KeyLugar" msprop:FriendlyName="KeyLugar" type="xs:int" />
+                  <xs:element name="KeyInstitucion" msprop:design-time-name="bda002d3-1aee-46a1-95cc-5969c157b1b6" msprop:DbColumnName="KeyInstitucion" msprop:FriendlyName="KeyInstitucion" type="xs:int" />
+                  <xs:element name="KeyPeriodo" msprop:design-time-name="861934a2-40fc-4c19-b521-9d836113f7c4" msprop:DbColumnName="KeyPeriodo" msprop:FriendlyName="KeyPeriodo" type="xs:int" />
+                  <xs:element name="Desercion" msprop:design-time-name="6d0e4ac7-e7a2-4213-891f-97ab8b01fca2" msprop:DbColumnName="Desercion" msprop:FriendlyName="Desercion" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Tipo_Desercion" msprop:design-time-name="b324f23c-34b4-4eb3-b42b-f23b8f2d12cc" msprop:DbTableName="Dim_Tipo_Desercion" msprop:FriendlyName="Dim_Tipo_Desercion" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyTipoDesercion" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="4e78717b-bffa-45fa-bf94-4aede82e57d3" msprop:DbColumnName="KeyTipoDesercion" msprop:FriendlyName="KeyTipoDesercion" type="xs:int" />
+                  <xs:element name="Tipo" msprop:design-time-name="149b12d1-6e4d-4027-a311-a68c1890361d" msprop:DbColumnName="Tipo" msprop:FriendlyName="Tipo">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idTipo" msprop:design-time-name="a14d49b9-7d96-4124-a572-ab729d3d2e7c" msprop:DbColumnName="idTipo" msprop:FriendlyName="idTipo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Hecho_Encuesta" msprop:design-time-name="d164b94a-badc-47a5-a427-b2a518af627f" msprop:DbTableName="Hecho_Encuesta" msprop:FriendlyName="Hecho_Encuesta" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KeyEstudiante" msprop:design-time-name="ce0c43c3-aed5-4f44-86f9-f77dc0e9aae3" msprop:DbColumnName="KeyEstudiante" msprop:FriendlyName="KeyEstudiante" type="xs:int" />
+                  <xs:element name="KeyTiempo" msprop:design-time-name="694e3393-7fd7-4206-9bd0-d41c86ef85c1" msprop:DbColumnName="KeyTiempo" msprop:FriendlyName="KeyTiempo" type="xs:int" />
+                  <xs:element name="KeyOrganizacion" msprop:design-time-name="e1537931-1a7d-4225-bf78-44e20c0ecce1" msprop:DbColumnName="KeyOrganizacion" msprop:FriendlyName="KeyOrganizacion" type="xs:int" />
+                  <xs:element name="KeyPeriodo" msprop:design-time-name="5a75d050-dd7c-4d24-9504-25f8ede33976" msprop:DbColumnName="KeyPeriodo" msprop:FriendlyName="KeyPeriodo" type="xs:int" />
+                  <xs:element name="encuestado" msprop:design-time-name="2a3e0f51-359e-4d50-b1be-ff5dc3113131" msprop:DbColumnName="encuestado" msprop:FriendlyName="encuestado" type="xs:int" />
+                  <xs:element name="porcentaje" msprop:design-time-name="d9b4cf42-4186-4630-86ee-b98cddef341e" msprop:DbColumnName="porcentaje" msprop:FriendlyName="porcentaje" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyEstudiante" />
+          <xs:field xpath="KeyTiempo" />
+          <xs:field xpath="KeyOrganizacion" />
+          <xs:field xpath="KeyLugar" />
+          <xs:field xpath="KeyApoderado" />
+          <xs:field xpath="KeyInstitucion" />
+          <xs:field xpath="KeyPeriodo" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Apoderado_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Apoderado" />
+          <xs:field xpath="KeyApoderado" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Institucion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Institucion" />
+          <xs:field xpath="KeyInstitucion" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Organizacion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Organizacion" />
+          <xs:field xpath="KeyOrganizacion" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Periodo_Academico_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Periodo_Academico" />
+          <xs:field xpath="KeyPeriodo" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Estudiante_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Estudiante" />
+          <xs:field xpath="KeyEstudiante" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Tiempo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Tiempo" />
+          <xs:field xpath="KeyTiempo" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Lugar_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Lugar" />
+          <xs:field xpath="KeyLugar" />
+        </xs:unique>
+        <xs:unique name="dbo_Hecho_Evaluacion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Hecho_Evaluacion" />
+          <xs:field xpath="KeyEstudiante" />
+          <xs:field xpath="KeyTiempo" />
+          <xs:field xpath="KeyOrganizacion" />
+          <xs:field xpath="KeyEvaluacion" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Evaluacion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Evaluacion" />
+          <xs:field xpath="KeyEvaluacion" />
+        </xs:unique>
+        <xs:unique name="dbo_Hecho_Desercion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyEstudiante" />
+          <xs:field xpath="KeyTipoDesercion" />
+          <xs:field xpath="KeyTiempo" />
+          <xs:field xpath="KeyOrganizacion" />
+          <xs:field xpath="KeyApoderado" />
+          <xs:field xpath="KeyLugar" />
+          <xs:field xpath="KeyInstitucion" />
+          <xs:field xpath="KeyPeriodo" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Tipo_Desercion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Tipo_Desercion" />
+          <xs:field xpath="KeyTipoDesercion" />
+        </xs:unique>
+        <xs:unique name="dbo_Hecho_Encuesta_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Hecho_Encuesta" />
+          <xs:field xpath="KeyEstudiante" />
+          <xs:field xpath="KeyTiempo" />
+          <xs:field xpath="KeyOrganizacion" />
+          <xs:field xpath="KeyPeriodo" />
+        </xs:unique>
+        <xs:keyref name="FK_Hecho_Encuesta_Dim_Estudiante" refer="dbo_Dim_Estudiante_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Encuesta" />
+          <xs:field xpath="KeyEstudiante" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Encuesta_Dim_Periodo_Academico" refer="dbo_Dim_Periodo_Academico_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Encuesta" />
+          <xs:field xpath="KeyPeriodo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Encuesta_Dim_Organizacion" refer="dbo_Dim_Organizacion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Encuesta" />
+          <xs:field xpath="KeyOrganizacion" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Encuesta_Dim_Tiempo" refer="dbo_Dim_Tiempo_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Encuesta" />
+          <xs:field xpath="KeyTiempo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Periodo_Academico" refer="dbo_Dim_Periodo_Academico_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyPeriodo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Institucion" refer="dbo_Dim_Institucion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyInstitucion" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Estudiante" refer="dbo_Dim_Estudiante_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyEstudiante" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Apoderado" refer="dbo_Dim_Apoderado_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyApoderado" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Tipo_Desercion" refer="dbo_Dim_Tipo_Desercion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyTipoDesercion" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Lugar" refer="dbo_Dim_Lugar_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyLugar" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Tiempo" refer="dbo_Dim_Tiempo_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyTiempo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Desercion_Dim_Organizacion" refer="dbo_Dim_Organizacion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Desercion" />
+          <xs:field xpath="KeyOrganizacion" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Evaluacion_Dim_Tiempo1" refer="dbo_Dim_Tiempo_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Evaluacion" />
+          <xs:field xpath="KeyTiempo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Evaluacion_Dim_Organizacion1" refer="dbo_Dim_Organizacion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Evaluacion" />
+          <xs:field xpath="KeyOrganizacion" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Evaluacion_Dim_Estudiante1" refer="dbo_Dim_Estudiante_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Evaluacion" />
+          <xs:field xpath="KeyEstudiante" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Evaluacion_Dim_Evaluacion1" refer="dbo_Dim_Evaluacion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Evaluacion" />
+          <xs:field xpath="KeyEvaluacion" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Matricula_Dim_Periodo_Academico" refer="dbo_Dim_Periodo_Academico_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyPeriodo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Matricula_Dim_Estudiante" refer="dbo_Dim_Estudiante_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyEstudiante" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Matricula_Dim_Tiempo" refer="dbo_Dim_Tiempo_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyTiempo" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Matricula_Dim_Apoderado" refer="dbo_Dim_Apoderado_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyApoderado" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Matricula_Dim_Lugar" refer="dbo_Dim_Lugar_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyLugar" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Matricula_Dim_Organizacion" refer="dbo_Dim_Organizacion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyOrganizacion" />
+        </xs:keyref>
+        <xs:keyref name="FK_Hecho_Matricula_Dim_Institucion" refer="dbo_Dim_Institucion_Constraint1">
+          <xs:selector xpath=".//dbo_Hecho_Matricula" />
+          <xs:field xpath="KeyInstitucion" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <DM_x0020_COAR xmlns="" />
+  </Schema>
+</DataSourceView>
