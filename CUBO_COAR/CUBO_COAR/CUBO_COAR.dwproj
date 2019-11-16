@@ -36,14 +36,6 @@
       <FullPath>Dim Lugar.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Apoderado.dim</Name>
-      <FullPath>Dim Apoderado.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Estudiante.dim</Name>
-      <FullPath>Dim Estudiante.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Periodo Academico.dim</Name>
       <FullPath>Dim Periodo Academico.dim</FullPath>
     </ProjectItem>
@@ -54,6 +46,14 @@
     <ProjectItem>
       <Name>Dim Tipo Desercion.dim</Name>
       <FullPath>Dim Tipo Desercion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Estudiante.dim</Name>
+      <FullPath>Dim Estudiante.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Apoderado.dim</Name>
+      <FullPath>Dim Apoderado.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
